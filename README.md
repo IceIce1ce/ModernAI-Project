@@ -1,4 +1,4 @@
-# DDPM
+# Modern AI Project
 
 ![arch](assets/arch.png)
 
