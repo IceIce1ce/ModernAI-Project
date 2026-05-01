@@ -1,4 +1,4 @@
-# Denoising Diffusion Probabilistic Models
+# DDPM
 
 ![arch](assets/arch.png)
 
@@ -17,22 +17,28 @@
 }
 ```
 
-## 2. To extract the dataset, run the following script:
+## 2. To install the environment, run the following script:
+```shell
+pip install -e .
+```
+
+## 3. To extract the dataset, run the following script:
 ```shell
 bash scripts/extract_dataset.sh
 ```
 
-## 3. To train and test the model, run the following scripts:
+## 4. To train and test the model, run the following scripts:
 ```shell
 bash scripts/train.sh
 bash scripts/test.sh
 ```
 
-## 4. To add Gaussian noise and test a facial image, run the following scripts:
+## 5. To add Gaussian noise and test a facial image, run the following scripts:
 ```shell
 bash scripts/add_noise.sh
 bash scripts/test_face.sh
 ```
 
-## 5. The entire code, dataset and pretrained weights can be downloaded at the following link:
-* [DDPM](https://drive.google.com/file/d/1fJIHvSD7tEmHYv6cbiYJYREb7JqxOG6P/view?usp=sharing)
+## 6. Contact
+If you have any questions, feel free to contact `Chi Tran`
+([ctran743@gmail.com](ctran743@gmail.com) or [tdc2000@skku.edu](tdc2000@skku.edu)).
